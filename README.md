@@ -1,6 +1,7 @@
-# LaPDA
+# LaPDA: Latent-space Point Cloud Denoising with Adaptivity (TVCG).
 
 LaPDA: Latent-space Point Cloud Denoising with Adaptivity.
+
 
 [comment]: <> (## 📂 Structure)
 
