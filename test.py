@@ -28,10 +28,10 @@ def input_iter(input_dir):
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--ckpt', type=str, default='./pretrain/LaPDA.pt')
-parser.add_argument('--input_root', type=str, default='/home/dupeng2/PycharmProjects/RegionPCD/data/examples')
+parser.add_argument('--input_root', type=str, default='./data/examples')
 parser.add_argument('--output_root', type=str, default='./data/results')
-parser.add_argument('--dataset_root', type=str, default='/home/dupeng2/PycharmProjects/RegionPCD/data/')
-parser.add_argument('--type', type=str, default='')  # Gaussian
+parser.add_argument('--dataset_root', type=str, default='./data/')
+parser.add_argument('--type', type=str, default='Gaussian')  # Gaussian
 parser.add_argument('--dataset', type=str, default='PUNet')  # PUNet, PCNet
 parser.add_argument('--resolution', type=str, default='10000_poisson')  # resolution_list = ['50000_poisson', '10000_poisson']
 parser.add_argument('--noise', type=str, default='0.01')
